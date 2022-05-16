@@ -37,6 +37,7 @@ CORE TYPES
 - aliases - allow you to create a new name for an existing type. 
 - functions - return types, void, undefined.
 - function types - 
+- callbacks - 
 
 - Typescript type system only helps you during development - before the code gets compiled
 - the compiler and IDEs understand TS

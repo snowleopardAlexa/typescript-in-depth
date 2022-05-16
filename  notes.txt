@@ -1,0 +1,29 @@
+TypeScript Overview:
+
+- Types 
+- Next-gen JS features (compiled down for older browsers)
+- Non-js features like Interfaces or Generics
+- Meta-programming features like decorators
+- Rich configuration options
+- Modern tooling that helps even in non-typescript projects 
+
+Outline:
+
+- typescript basics
+- compiler & configuraion deep dive
+- working with next-ge js compiled
+- classes & Interfaces
+- advanced types & typescript features
+- generics
+- decorators
+- time to practice - full project 
+- working with namespaces &  modules
+- webpack & typescript
+- third-parties libraries & typescript
+- react + typescript & NodeJs + typescript
+
+CORE TYPES
+
+- number - 1, 5.3, -10 - all numbers, no differentiation between integers or floats
+- string - "Hi", 'Hi', `Hi` - all text values 
+- boolean - true, false - just these two no "truthy" and "falsy" values

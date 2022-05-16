@@ -34,6 +34,7 @@ CORE TYPES
 - any - * - comes back to JS settings - flexible - BIG DISADVANTAGE! DON'T USE IT!
 - union types - a variable which can store multiple type of values - numbers, strings, booleans
 - literal types - you are clear what value should be hold - defines a type that accepts specified string literal. - use string literal types with union types and type aliases to define types that accept a finite set of string literals. 
+- aliases - allow you to create a new name for an existing type. 
 
 - Typescript type system only helps you during development - before the code gets compiled
 - the compiler and IDEs understand TS

@@ -1,16 +1,14 @@
-// union types
-// we can't combine both numbers and strings with + - union types can help with that
-function combine(input1, input2) {
-    var result;
-    if (typeof input1 === 'number' && typeof input2 === 'number') {
-        result = input1 + input2;
-    }
-    else {
-        result = input1.toString() + input2.toString();
-    }
-    return result;
+function add(n1, n2) {
+    return n1 + n2;
 }
-var combinedAges = combine(40, 30);
-console.log(combinedAges);
-var combinedNames = combine('Max', 'Anna');
-console.log(combinedNames);
+// void - does not return anything, it does not have return statement
+// the void return type
+// undefined is a valid type in typescript
+// void is a valid type in typescript
+function printResult(num) {
+    console.log('Result: ' + num);
+}
+printResult(add(5, 12));
+var combineValues;
+combineValues = add;
+console.log(combineValues(8, 8));

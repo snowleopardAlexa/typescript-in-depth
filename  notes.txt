@@ -29,3 +29,4 @@ CORE TYPES
 - boolean - true, false - just these two no "truthy" and "falsy" values
 
 - Typescript type system only helps you during development - before the code gets compiled
+

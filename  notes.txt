@@ -30,6 +30,7 @@ CORE TYPES
 - object - {age: 30} - any JS object, more specific types (types of object) are possible
 - arrays - [1, 2, 3] - any JS array, type can be flexible or strict (regarding the element types)
 - tuple - [1, 2] - added by TS: fixed-length array
+- enum - enum { NEW, OLD } - added by TS: automatically enumerated global constant identifiers
 
 - Typescript type system only helps you during development - before the code gets compiled
 - the compiler and IDEs understand TS

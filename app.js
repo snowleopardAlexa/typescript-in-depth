@@ -14,14 +14,21 @@
 // this is tuple and it must only have two elements - tuple is an array with fixed element length
 //role: [2, "king"],
 //};
-var KING = 0;
-var READ_ONLY = 1;
-var prince = 2;
+//const KING = 0
+//const READ_ONLY = 1
+//const prince = 2
+// assigns labels to numbers
+var Role;
+(function (Role) {
+    Role[Role["KING"] = 0] = "KING";
+    Role[Role["READ_ONLY"] = 1] = "READ_ONLY";
+    Role[Role["PRICE"] = 2] = "PRICE";
+})(Role || (Role = {}));
 var person = {
     name: 'Kion',
     age: 1,
     hobbies: ['Catching Mice', 'Eating Meat'],
-    role: KING
+    role: Role.KING
 };
 // person.role.push('prince')
 // person.role[1] = 10
@@ -35,6 +42,6 @@ for (var _i = 0, _a = person.hobbies; _i < _a.length; _i++) {
     console.log(hobby.toUpperCase());
     // console.log(hobby.map()) - error - map() does not work on strings - TS shines here!
 }
-if (person.role === KING) {
+if (person.role === Role.KING) {
     console.log('is king');
 }

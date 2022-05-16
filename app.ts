@@ -8,7 +8,7 @@ const person = {
     hobbies: ['Eating Meat', 'Attacking Moma feet']
 }
 
-let favoriteActivities: string[]
+let favoriteActivities: any[]
 favoriteActivities = ['Eating Meat', 1]
 
 console.log(person.name)

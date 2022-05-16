@@ -8,7 +8,12 @@ const person = {
     hobbies: ['Eating Meat', 'Attacking Moma feet']
 }
 
-let favoriteActivities: any[]
-favoriteActivities = ['Eating Meat', 1]
+// any type - it is flexible but don't use it often because you will lose all benefits of TS
+let favoriteActivities: string[]
+favoriteActivities = ['Eating Meat']
 
 console.log(person.name)
+
+for (const hobby of person.hobbies) {
+    console.log(hobby)
+}

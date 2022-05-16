@@ -1,0 +1,47 @@
+TypeScript Overview:
+
+- Types 
+- Next-gen JS features (compiled down for older browsers)
+- Non-js features like Interfaces or Generics
+- Meta-programming features like decorators
+- Rich configuration options
+- Modern tooling that helps even in non-typescript projects 
+
+Outline:
+
+- typescript basics
+- compiler & configuraion deep dive
+- working with next-ge js compiled
+- classes & Interfaces
+- advanced types & typescript features
+- generics
+- decorators
+- time to practice - full project 
+- working with namespaces &  modules
+- webpack & typescript
+- third-parties libraries & typescript
+- react + typescript & NodeJs + typescript
+
+CORE TYPES
+
+- number - 1, 5.3, -10 - all numbers, no differentiation between integers or floats
+- string - "Hi", 'Hi', `Hi` - all text values 
+- boolean - true, false - just these two no "truthy" and "falsy" values
+- object - {age: 30} - any JS object, more specific types (types of object) are possible
+- arrays - [1, 2, 3] - any JS array, type can be flexible or strict (regarding the element types)
+- tuple - [1, 2] - added by TS: fixed-length array
+- enum - enum { NEW, OLD } - added by TS: automatically enumerated global constant identifiers
+- any - * - comes back to JS settings - flexible - BIG DISADVANTAGE! DON'T USE IT!
+- union types - a variable which can store multiple type of values - numbers, strings, booleans
+- literal types - you are clear what value should be hold - defines a type that accepts specified string literal. - use string literal types with union types and type aliases to define types that accept a finite set of string literals. 
+- aliases - allow you to create a new name for an existing type. 
+- functions - return types, void, undefined.
+- function types - the function type accepts two arguments: x and y with the type number . The type of the return value is number that follows the fat arrow ( => ) appeared between parameters and return type
+- callbacks - a callback function is defined as a function passed into another function as an argument, which is then invoked inside the outer function to complete the desirable routine or action.
+- unknown type - unknown is the type-safe counterpart of any . Anything is assignable to unknown , but unknown isn't assignable to anything but itself and any without a type assertion or a control flow based narrowing. Likewise, no operations are permitted on an unknown without first asserting or narrowing to a more specific type.
+- never type -  indicates the values that will never occur. The never type is used when you are sure that something is never going to occur. For example, you write a function which will not return to its end point or always throws an exception.
+
+- Typescript type system only helps you during development - before the code gets compiled
+- the compiler and IDEs understand TS
+- colon : the name of the type
+

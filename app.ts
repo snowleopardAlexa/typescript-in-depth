@@ -1,6 +1,6 @@
 // data types : numbers, strings, booleans
 
-function add(n1: number , n2: number, showResult: boolean) {
+function add(n1: number , n2: number, showResult: boolean, phrase: string) {
     // this method has downside - we can prevent this error with ts
     // js - dynamically typed - they can change during runtime
     // ts - statically typed - set during development
@@ -10,7 +10,7 @@ function add(n1: number , n2: number, showResult: boolean) {
     
     // truthy or falsy value
     if (showResult) {
-      console.log(n1 + n2)
+      console.log(phrase + n1 + n2)
     } else {
         return n1 + n2
     }
@@ -22,8 +22,9 @@ function add(n1: number , n2: number, showResult: boolean) {
 const number1 = 5
 const number2 = 2.4
 const printResult = true
+const resultPhrase = 'Result is: '
 
 // store numbers as arguments 
-add(number1, number2, printResult)
+add(number1, number2, printResult, resultPhrase)
 
 

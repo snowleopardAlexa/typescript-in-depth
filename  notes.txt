@@ -39,7 +39,7 @@ CORE TYPES
 - function types - the function type accepts two arguments: x and y with the type number . The type of the return value is number that follows the fat arrow ( => ) appeared between parameters and return type
 - callbacks - a callback function is defined as a function passed into another function as an argument, which is then invoked inside the outer function to complete the desirable routine or action.
 - unknown type - unknown is the type-safe counterpart of any . Anything is assignable to unknown , but unknown isn't assignable to anything but itself and any without a type assertion or a control flow based narrowing. Likewise, no operations are permitted on an unknown without first asserting or narrowing to a more specific type.
-- never type - 
+- never type -  indicates the values that will never occur. The never type is used when you are sure that something is never going to occur. For example, you write a function which will not return to its end point or always throws an exception.
 
 - Typescript type system only helps you during development - before the code gets compiled
 - the compiler and IDEs understand TS

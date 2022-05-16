@@ -12,9 +12,11 @@ function printResult(num: number): void {
 
 printResult(add(5, 12))
 
-let combineValues
+let combineValues: Function
 
 combineValues = add 
+// it throws error combineValues is not a function
+// combineValues =  5
 
 console.log(combineValues(8,8))
 

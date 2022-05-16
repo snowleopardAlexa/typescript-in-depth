@@ -15,6 +15,8 @@ printResult(add(5, 12))
 let combineValues: Function
 
 combineValues = add 
+combineValues = printResult
+
 // it throws error combineValues is not a function
 // combineValues =  5
 

@@ -11,5 +11,7 @@ function printResult(num) {
 printResult(add(5, 12));
 var combineValues;
 combineValues = add;
-combineValues = 5;
+combineValues = printResult;
+// it throws error combineValues is not a function
+// combineValues =  5
 console.log(combineValues(8, 8));

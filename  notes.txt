@@ -29,6 +29,7 @@ CORE TYPES
 - boolean - true, false - just these two no "truthy" and "falsy" values
 - object - {age: 30} - any JS object, more specific types (types of object) are possible
 - arrays - [1, 2, 3] - any JS array, type can be flexible or strict (regarding the element types)
+- tuple - [1, 2] - added by TS: fixed-length array
 
 - Typescript type system only helps you during development - before the code gets compiled
 - the compiler and IDEs understand TS
